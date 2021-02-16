@@ -1,0 +1,32 @@
+/*INICIAMOS PARA MOVIL*/
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+img{
+  display: block;
+  width: 100%;
+}
+.main-header_title{
+  text-align: center;
+  font-size: 2.5em;
+  margin: 10px 0;
+  color: #0b090a;
+}
+.main-nav{
+  display: none;
+}
+.main-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon-menu{
+  font-size: 1.5em;
+  border: 1px solid #0b090a;
+  display: block;
+  padding: 10px 20px;
+}
