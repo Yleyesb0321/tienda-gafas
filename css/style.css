@@ -10,6 +10,9 @@ img{
   display: block;
   width: 100%;
 }
+.main-header{
+  padding: 0 20px;
+}
 .main-header_title{
   text-align: center;
   font-size: 2.5em;
@@ -21,7 +24,7 @@ img{
 }
 .main-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .icon-menu{
@@ -29,4 +32,16 @@ img{
   border: 1px solid #0b090a;
   display: block;
   padding: 10px 20px;
+  cursor: pointer;
+}
+.main-header-btn{
+  display: block;
+  padding: 10px 30px;
+  color: #0b090a;
+  border: 1px solid #0b090a;
+  text-decoration: none;
+}
+.main-header-input{
+  display: block;
+  padding: 10px;
 }
